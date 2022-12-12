@@ -11,6 +11,7 @@ public class SpielProgrammierung {
         int punktePlayer = 0;
         int punkteComp = 0;
 
+        Scanner scanner = new Scanner(System.in);
 
 
 
