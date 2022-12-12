@@ -11,7 +11,7 @@ public class SpielProgrammierung {
         int punktePlayer = 0;
         int punkteComp = 0;
 
-
+        System.out.println("TEest");
 
 
     }
