@@ -146,6 +146,26 @@ public class SpielProgrammierung {
     }
 
 
+    private static void playerStein(int computer) {
+        switch (computer) {
+            case 1: System.out.println("Stein schleift Schere - Punkt für dich!");
+                break;
+            case 2: System.out.println("Unentschieden!");
+                break;
+            case 3: System.out.println("Papier bedeckt Stein - Punkt für Computer!");
+                break;
+            case 4: System.out.println("Stein zerquetscht Echse - Punkt für dich!");
+                break;
+            case 5: System.out.println("Spock verdampft Stein - Punkt für Computer!");
+                break;
+            default:
+                System.out.println("Falsche Eingabe!");
+        }
+    }
+
+
+
+
 
 }
 }
