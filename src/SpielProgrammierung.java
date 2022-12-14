@@ -65,5 +65,26 @@ public class SpielProgrammierung {
                 System.exit(0);
             }
 
+            // verschachtelte if-else-Anweisung für Punktestand: bei Unentschieden bleibt Punktestand unverändert
+            if (computer == player) {
+
+                // Gewinnt der Player die Runde -> Punkt für Player (in if sind Bedingen, dass Player gewinnt)
+            } else {
+                if (computer == 3 && player == 1 || computer == 2 && player == 3 || computer == 4 && player == 2 || computer == 5 && player == 4 ||
+                        computer == 1 && player == 5 || computer == 4 && player == 1 || computer == 3 && player == 4 || computer == 4 && player == 3 ||
+                        computer == 2 && player == 5 || computer == 1 && player == 2) {
+                    punktePlayer++;
+                    System.out.println("Punktestand " + punktePlayer + " : " + punkteComp);
+                } else { //Gewinnt der Computer -> Punkt für Computer
+                    punkteComp++;
+                    System.out.println("Punktestand " + punktePlayer + " : " + punkteComp);
+                }
+            }
+        }
+
+
+
+
+
         }
 }
