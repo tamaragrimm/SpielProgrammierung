@@ -129,8 +129,21 @@ public class SpielProgrammierung {
             default: System.out.println("Gegner: Falsche Eingabe");
         }
     }
-
-
+    private static void playerSchere(int computer) {
+        switch (computer) {
+            case 1: System.out.println("Unentschieden!");
+                break;
+            case 2: System.out.println("Stein schleift Schere - Punkt für Computer!");
+                break;
+            case 3: System.out.println("Schere schneidet Papier - Punkt für dich!");
+                break;
+            case 4: System.out.println("Schere köpft Echse - Punkt für dich!");
+                break;
+            case 5: System.out.println("Spock zertrümmert Schere - Punkt für Computer!");
+                break;
+            default: System.out.println("Falsche Eingabe!");
+        }
+    }
 
 
 
