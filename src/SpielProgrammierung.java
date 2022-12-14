@@ -92,7 +92,27 @@ public class SpielProgrammierung {
             System.out.println("Glückwunsch! Du hast gewonnen!");
         }
 }
-
+    // Methoden
+    // Ausgabe des ausgewählten Elements des Players
+    private static void playerObject(int player) {
+        switch (player) {
+            case 1: System.out.println("Player: Schere ✂");
+                break;
+            case 2: System.out.println("Player: Stein 🧱");
+                break;
+            case 3: System.out.println("Player: Papier 📝");
+                break;
+            case 4: System.out.println("Player: Echse🦎");
+                break;
+            case 5: System.out.println("Player: Spock");
+                break;
+            default: System.out.println("Player: Falsche Eingabe");
+        }
+    }
+    
+    
+    
+    
     // Ausgabe des zufällig zugewiesenen Elements des Computers
     private static void compObject(int computer) {
         switch (computer) {
