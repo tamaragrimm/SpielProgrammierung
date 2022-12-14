@@ -41,5 +41,9 @@ public class SpielProgrammierung {
             System.out.println();
             System.out.println("---------------------------------------------------------------");
             System.out.println();
-    }
+
+            // Methodenaufruf: Auswahl des Players ausgeben
+            playerObject(player);
+
+        }
 }
