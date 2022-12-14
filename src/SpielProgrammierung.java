@@ -32,5 +32,14 @@ public class SpielProgrammierung {
 
         Scanner scanner = new Scanner(System.in);
 
+     // do-while Schleife: Spiel wird, solange durchlaufen, wie while-Bedingung true ist (also solange niemand 3 Punkte hat)
+        do {
+            System.out.println();
+            System.out.println("Bitte treffen Sie Ihre Auswahl (Zahl):");
+            System.out.print("1) Schere ✂,2) Stein 🧱,3) Papier 📝,4) Echse🦎,5) Spock : ");
+            player = scanner.nextInt();
+            System.out.println();
+            System.out.println("---------------------------------------------------------------");
+            System.out.println();
     }
 }
