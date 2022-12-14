@@ -8,7 +8,7 @@ public class SpielProgrammierung {
         int computer = 0;
         // Variablendeklaration für den Punktestand
         int punktePlayer = 0;
-        int punkteComp = 0;import java.util.Scanner;
+        int punkteComp = 0;
 
                 // Ausgabe der Regeln
         System.out.println("Wir spielen Schere, Stein, Papier, Echse, Spock.");
