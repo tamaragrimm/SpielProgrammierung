@@ -81,10 +81,22 @@ public class SpielProgrammierung {
                 }
             }
         }
+        
+     // do-while-Schleife bzw. Spiel läuft, solange niemand 3 Punkte hat
+        while (punkteComp < 3 && punktePlayer < 3) ;
+        if (punkteComp > punktePlayer) { //hat der Computer mehr Punkte -> Computer hat gewonnen
+            System.out.println("---------------------------------------------------------------");
+            System.out.println("Computer hat gewonnen!");
+        } else { //sonst gewinnt der Player
+            System.out.println("---------------------------------------------------------------");
+            System.out.println("Glückwunsch! Du hast gewonnen!");
+        }
+}
 
-
-
-
+    
+    
+    
+    
 
         }
 }
