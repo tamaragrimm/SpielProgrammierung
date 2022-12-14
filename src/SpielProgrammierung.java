@@ -9,6 +9,13 @@ public class SpielProgrammierung {
         // Variablendeklaration für den Punktestand
         int punktePlayer = 0;
         int punkteComp = 0;
+
+         // Ausgabe der Regeln
+        System.out.println("Wir spielen Schere, Stein, Papier, Echse, Spock.");
+        System.out.println("Wer zuerst 3 Punkte hat gewinnt.");
+        System.out.println();
+        System.out.println("---------------------------------------------------------------");
+        System.out.println();
         System.out.println("Regeln: ");
         System.out.println("Schere schneidet Papier");
         System.out.println("Papier bedeckt Stein");
@@ -22,8 +29,6 @@ public class SpielProgrammierung {
         System.out.println("Stein schleift Schere");
         System.out.println(" ");
         System.out.println(" ");
-
-
 
         Scanner scanner = new Scanner(System.in);
 
