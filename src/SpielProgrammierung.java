@@ -162,6 +162,22 @@ public class SpielProgrammierung {
                 System.out.println("Falsche Eingabe!");
         }
     }
+    
+    private static void playerPapier(int computer) {
+        switch (computer) {
+            case 1: System.out.println("Schere schneidet Papier - Punkt für Computer!");
+                break;
+            case 2: System.out.println("Papier bedeckt Stein - Punkt für dich!");
+                break;
+            case 3: System.out.println("Unentschieden!");
+                break;
+            case 4: System.out.println("Echse frisst Papier - Punkt für Computer!");
+                break;
+            case 5: System.out.println("Papier widerlegt Spock - Punkt für dich!");
+                break;
+            default: System.out.println("Falsche Eingabe!");
+        }
+    }
 
 
 
