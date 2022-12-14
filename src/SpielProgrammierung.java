@@ -8,9 +8,9 @@ public class SpielProgrammierung {
         int computer = 0;
         // Variablendeklaration für den Punktestand
         int punktePlayer = 0;
-        int punkteComp = 0;
+        int punkteComp = 0;import java.util.Scanner;
 
-         // Ausgabe der Regeln
+                // Ausgabe der Regeln
         System.out.println("Wir spielen Schere, Stein, Papier, Echse, Spock.");
         System.out.println("Wer zuerst 3 Punkte hat gewinnt.");
         System.out.println();
@@ -36,10 +36,10 @@ public class SpielProgrammierung {
         do {
             System.out.println();
             System.out.println("Bitte treffen Sie Ihre Auswahl (Zahl):");
-            System.out.print("1) Schere ✂,2) Stein 🧱,3) Papier 📝,4) Echse🦎,5) Spock : ");
+            System.out.print("1) Schere ✂,2) Stein 🧱,3) Papier 📝,4) Echse🦎,5) Spock Spock\uD83D\uDD96: ");
             player = scanner.nextInt();
             System.out.println();
-            System.out.println("---------------------------------------------------------------");
+            System.out.println("--------------------------------------------------------------");
             System.out.println();
 
             // Methodenaufruf: Auswahl des Players ausgeben
@@ -104,7 +104,7 @@ public class SpielProgrammierung {
                 break;
             case 4: System.out.println("Player: Echse🦎");
                 break;
-            case 5: System.out.println("Player: Spock");
+            case 5: System.out.println("Player: SpockSpock\uD83D\uDD96");
                 break;
             default: System.out.println("Player: Falsche Eingabe");
         }
