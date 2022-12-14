@@ -113,6 +113,26 @@ public class SpielProgrammierung {
     
     
     
-
+    // Ausgabe des zufällig zugewiesenen Elements des Computers
+    private static void compObject(int computer) {
+        switch (computer) {
+            case 1: System.out.println("Gegner: Schere ✂");
+                break;
+            case 2: System.out.println("Gegner: Stein 🧱");
+                break;
+            case 3: System.out.println("Gegner: Papier 📝");
+                break;
+            case 4: System.out.println("Gegner: Echse🦎");
+                break;
+            case 5: System.out.println("Gegner: Spock");
+                break;
+            default: System.out.println("Gegner: Falsche Eingabe");
         }
+    }
+
+
+
+
+
+}
 }
