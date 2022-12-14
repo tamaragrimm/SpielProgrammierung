@@ -45,5 +45,9 @@ public class SpielProgrammierung {
             // Methodenaufruf: Auswahl des Players ausgeben
             playerObject(player);
 
+            // Methodenaufruf: zufällige Zuweisung des Computers ausgeben
+            computer = (int)(Math.random()*5 + 1); //Zufallszahl zwischen 1 bis 5
+            compObject(computer);
+
         }
 }
