@@ -49,5 +49,21 @@ public class SpielProgrammierung {
             computer = (int)(Math.random()*5 + 1); //Zufallszahl zwischen 1 bis 5
             compObject(computer);
 
+            // Methodenaufruf, um Aktion auszugeben (Unentschieden etc.)
+            if (player == 1) {
+                playerSchere(computer); //Wieso computer-Variable?
+            } else if (player == 2) {
+                playerStein(computer);
+            } else if (player == 3) {
+                playerPapier(computer);
+            } else if (player == 4) {
+                playerEchse(computer);
+            } else if (player == 5) {
+                playerSpock(computer);
+            } else {
+                System.out.println("Du verlierst, da deine Eingabe ungültig ist! Bitte wiederhole das Spiel.");
+                System.exit(0);
+            }
+
         }
 }
