@@ -6,7 +6,9 @@ public class SpielProgrammierung {
         // Deklaration der zwei Spielervariablen
         int player = 0;
         int computer = 0;
-
+        // Variablendeklaration für den Punktestand
+        int punktePlayer = 0;
+        int punkteComp = 0;
         System.out.println("Regeln: ");
         System.out.println("Schere schneidet Papier");
         System.out.println("Papier bedeckt Stein");
@@ -21,9 +23,7 @@ public class SpielProgrammierung {
         System.out.println(" ");
         System.out.println(" ");
 
-        // Variablendeklaration für den Punktestand
-        int punktePlayer = 0;
-        int punkteComp = 0;
+
 
         Scanner scanner = new Scanner(System.in);
 
