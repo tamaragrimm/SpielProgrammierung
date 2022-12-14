@@ -178,6 +178,21 @@ public class SpielProgrammierung {
             default: System.out.println("Falsche Eingabe!");
         }
     }
+    private static void playerEchse(int computer) {
+        switch (computer) {
+            case 1: System.out.println("Schere köpft Echse - Punkt für Computer!");
+                break;
+            case 2: System.out.println("Stein zerquetscht Echse - Punkt für Computer!");
+                break;
+            case 3: System.out.println("Echse frisst Papier - Punkt für dich!");
+                break;
+            case 4: System.out.println("Unentschieden!");
+                break;
+            case 5: System.out.println("Echse vergiftet Spock - Punkt für dich!");
+                break;
+            default: System.out.println("Falsche Eingabe!");
+        }
+    }
 
 
 
