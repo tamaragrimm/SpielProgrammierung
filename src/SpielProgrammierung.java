@@ -36,7 +36,7 @@ public class SpielProgrammierung {
         do {
             System.out.println();
             System.out.println("Bitte treffen Sie Ihre Auswahl (Zahl):");
-            System.out.print("1) Schere ✂,2) Stein 🧱,3) Papier 📝,4) Echse🦎,5) Spock Spock\uD83D\uDD96: ");
+            System.out.print("1) Schere ✂,2) Stein 🧱,3) Papier 📝,4) Echse🦎,5) Spock \uD83D\uDD96: ");
             player = scanner.nextInt();
             System.out.println();
             System.out.println("--------------------------------------------------------------");
@@ -104,7 +104,7 @@ public class SpielProgrammierung {
                 break;
             case 4: System.out.println("Player: Echse🦎");
                 break;
-            case 5: System.out.println("Player: SpockSpock\uD83D\uDD96");
+            case 5: System.out.println("Player: Spock \uD83D\uDD96");
                 break;
             default: System.out.println("Player: Falsche Eingabe");
         }
@@ -124,7 +124,7 @@ public class SpielProgrammierung {
                 break;
             case 4: System.out.println("Gegner: Echse🦎");
                 break;
-            case 5: System.out.println("Gegner: Spock");
+            case 5: System.out.println("Gegner: Spock \uD83D\uDD96");
                 break;
             default: System.out.println("Gegner: Falsche Eingabe");
         }
