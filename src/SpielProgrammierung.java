@@ -70,7 +70,8 @@ public class SpielProgrammierung {
 
                 // Gewinnt der Player die Runde -> Punkt für Player (in if sind Bedingen, dass Player gewinnt)
             } else {
-                if (computer == 3 && player == 1 || computer == 2 && player == 3 || computer == 4 && player == 2 || computer == 5 && player == 4 ||
+                if (computer == 3 && player == 1 || computer == 2 && player == 3 || computer == 4 && player == 2
+                        || computer == 5 && player == 4 || computer == 5 && player ==3||
                         computer == 1 && player == 5 || computer == 4 && player == 1 || computer == 3 && player == 4 ||
                         computer == 2 && player == 5 || computer == 1 && player == 2) {
                     punktePlayer++;
@@ -81,7 +82,7 @@ public class SpielProgrammierung {
                 }
             }
         }
-        
+
      // do-while-Schleife bzw. Spiel läuft, solange niemand 3 Punkte hat
         while (punkteComp <3 && punktePlayer <3) ;
         if (punkteComp > punktePlayer) { //hat der Computer mehr Punkte -> Computer hat gewonnen
@@ -104,15 +105,15 @@ public class SpielProgrammierung {
                 break;
             case 4: System.out.println("Player: Echse🦎");
                 break;
-            case 5: System.out.println("Player: Spock \uD83D\uDD96");
+            case 5: System.out.println("Player: SpockSpock\uD83D\uDD96");
                 break;
             default: System.out.println("Player: Falsche Eingabe");
         }
     }
-    
-    
-    
-    
+
+
+
+
     // Ausgabe des zufällig zugewiesenen Elements des Computers
     private static void compObject(int computer) {
         switch (computer) {
@@ -124,7 +125,7 @@ public class SpielProgrammierung {
                 break;
             case 4: System.out.println("Gegner: Echse🦎");
                 break;
-            case 5: System.out.println("Gegner: Spock \uD83D\uDD96");
+            case 5: System.out.println("Gegner: Spock\uD83D\uDD96");
                 break;
             default: System.out.println("Gegner: Falsche Eingabe");
         }
