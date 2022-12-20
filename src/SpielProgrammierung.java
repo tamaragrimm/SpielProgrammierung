@@ -71,7 +71,7 @@ public class SpielProgrammierung {
                 // Gewinnt der Player die Runde -> Punkt für Player (in if sind Bedingen, dass Player gewinnt)
             } else {
                 if (computer == 3 && player == 1 || computer == 2 && player == 3 || computer == 4 && player == 2 || computer == 5 && player == 4 ||
-                        computer == 1 && player == 5 || computer == 4 && player == 1 || computer == 3 && player == 4 || computer == 4 && player == 3 ||
+                        computer == 1 && player == 5 || computer == 4 && player == 1 || computer == 3 && player == 4 ||
                         computer == 2 && player == 5 || computer == 1 && player == 2) {
                     punktePlayer++;
                     System.out.println("Punktestand " + punktePlayer + " : " + punkteComp);
@@ -83,7 +83,7 @@ public class SpielProgrammierung {
         }
         
      // do-while-Schleife bzw. Spiel läuft, solange niemand 3 Punkte hat
-        while (punkteComp < 3 && punktePlayer < 3) ;
+        while (punkteComp <3 && punktePlayer <3) ;
         if (punkteComp > punktePlayer) { //hat der Computer mehr Punkte -> Computer hat gewonnen
             System.out.println("---------------------------------------------------------------");
             System.out.println("Computer hat gewonnen!");
